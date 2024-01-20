@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 80px;
+}
+
+
+header{
+    background: rgb(245, 198, 131);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+span{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 20px;
+    /* text-align: right; */
+
+}
+
+nav{
+display: flex;
+flex-direction: column;
+text-align: center;
+background-color: rgb(227, 161, 17);
+font-size: 20px;
+}
+
+nav a{
+    padding:0.5em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover{
+    color: bisque;
+}
+
+h1{
+    text-align: center;
+    font-size:20px ;
+    padding: 10px;
+    border-bottom: 2px dotted black;
+    margin: 0px 60px;
+}
+
+main{
+    display: grid;
+    /* background: rgb(245, 198, 131); */
+}
+
+main h2 {
+    background-color: rgb(245, 198, 131);
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+   
+main li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.card{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{
+background: rgb(245, 198, 131);
+font-size: 1em;
+text-align: center;
+padding: 20px;
+}
+
+
+#year{
+
+}
+
+
