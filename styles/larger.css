@@ -28,6 +28,7 @@
     }
 
     nav{
+        display: flex;
         flex-direction: row;
         justify-content: space-around;  
     }
@@ -42,10 +43,8 @@
         
     }
 
-    ul{
-        padding: 20px;
-        font-size: 30px;
-    }
+    
+    
 
     main li{
         padding: 5px;
@@ -65,10 +64,15 @@
   
    }
 
-
-
-
+   #mybutton{
+    display: none;
+   }
+ 
 }
+
+
+
+
 
 
     

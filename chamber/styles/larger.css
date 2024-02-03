@@ -1,0 +1,69 @@
+@media screen and (min-width: 500px){
+
+    header{
+        display: flex;
+        justify-content: center;
+     
+        /* padding: 10px; */
+    }
+   
+
+
+    .hero img{
+        width: 3755px;
+        height: 1500px;
+    }
+
+
+    
+
+    h1{
+        grid-column: 1/3;
+        font-size: 60px;
+        padding: 10px;
+        text-align:center;
+        
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  
+    }
+
+    nav a{
+        font-size: 30px;
+       }
+    
+
+    main h2{
+        font-size: 30px;
+        
+    }
+
+    ul{
+        padding: 20px;
+        font-size: 30px;
+    }
+ 
+
+    /* .leadership{
+        border: 1px solid gray;
+        margin: 60px;  
+        box-shadow: 4px 4px 50px 4px gray; 
+    } */
+
+
+   
+   footer{
+    /* display: flex; */
+    font-size: 30px;
+    justify-content: center;
+  
+   }
+
+   #mybutton{
+    display: none;
+   }
+ 
+}
