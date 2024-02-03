@@ -90,3 +90,12 @@ padding: 20px;
 .open{ 
 display: flex;
 }
+
+#mybutton::before{
+    content:'\2630';
+
+}
+
+#mybutton.open::before{
+    content:'x';
+}

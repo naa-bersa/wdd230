@@ -5,19 +5,21 @@
 }
 
 nav{
-   
+
+    display: none;
     flex-direction:column ;
-    margin: 0.3em;
     text-align: center;
-    font-size: 50px;
     background-color: rgb(41, 71, 96);
+    font-size: 20px;
+   
+    
 }
 
 nav a{
     padding: 0.05em;
-    margin: 20px;
     color: azure;
     text-decoration: none;
+   
     
 }
 
@@ -27,18 +29,19 @@ nav a:hover{
 
 
 h1{
-    font-size:30px;
-    padding: 0.05em;
+    font-size:15px;
+    padding: 0.5em;
     color: white;
     margin: 20px;
 
 }
 header{
     background-color: black;
+    margin: 15px;
 }
 
 .hero img{
-    width: 350px;
+    width: 93%;
     /* height: 500px; */
   
 /* height: 0px; */
@@ -50,7 +53,7 @@ p{
 }
 section img{
     display: flex;
-    width: 300px;
+    width: 100%;
     margin: 15px;
 }
 
@@ -58,7 +61,7 @@ main{
     display: grid;
 }
 main h2{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     color:rgb(41, 71, 96) ;
     padding: 0.2em;
@@ -73,7 +76,23 @@ main h2{
 
 .middle{
     text-align: center;
-    font-size:25px;
+    font-size:20px;
     padding: 15px;
 }
 
+.open{ 
+    display: flex;
+    }
+    
+    #mybutton::before{
+        content:'\2630';
+    
+    }
+    
+    #mybutton.open::before{
+        content:'x';
+      
+    }
+/* #mybutton{ */
+    float: right;
+/* } */
