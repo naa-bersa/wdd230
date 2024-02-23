@@ -12,6 +12,7 @@
     .hero img{
         width:97.5%;
         height:10%;
+      
     }
 
 
@@ -36,20 +37,35 @@
     nav a{
         font-size: 15px;
        }
-    
 
-    main h2{
-        font-size: 25px;
-        
+    .image_grid img{
+        width: 100%;
+    }   
+    
+    .leadership_img{
+        justify-content: center;
     }
 
+    main h2{
+        font-size: 25px; 
+        margin-top: 40px;
+    }
+
+    .image_grid main{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin-right: 15px;
+    }
     p{
         font-size: 20px;
         text-align: center;
     }
 
+    .heading{
+
+    }
+
     
-   
    /* .left-align{
     /* display: flex; */
     /* font-size: 30px;
@@ -85,4 +101,47 @@
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
+
+/* Discover page */
+.grid{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} 
+ 
+.left{
+align-content:center;
+
+}
+.left_side{
+    text-align: left;
+}
+div picture{
+    width: 100%;
+    animation: fade 115s;
+    padding: 15px;
+    
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    10%{
+      opacity: 1;  
+    }
+}
+main.spread{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+
+}
+
+.sidebar{
+    margin-left:15px ;
+}
+
+.top{
+    margin-top: 80px;
+}
+
 }
