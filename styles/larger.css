@@ -1,78 +1,92 @@
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
+  header {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+  }
+  span {
+    padding: 20px;
+    font-size: 40px;
+  }
+  img {
+    width: 100px;
+  }
 
-    header{
-        display: flex;
-        justify-content: center;
-        /* padding: 10px; */
-    }
-    span{
-        padding: 20px;
-        font-size: 40px;
-    }
-    img{
-        width: 100px;
-    }
+  main {
+    grid-template-columns: 70% 30%;
+    column-gap: 1em;
+  }
 
+  h1 {
+    grid-column: 1/3;
+    font-size: 35px;
+    padding: 10px;
+    text-align: left;
+  }
 
-    main{
-        grid-template-columns: 70% 30%;
-        column-gap:1em ;
-    }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-    h1{
-        grid-column: 1/3;
-        font-size: 35px;
-        padding: 10px;
-        text-align:left;
-        
-    }
+  nav a {
+    font-size: 30px;
+  }
 
-    nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;  
-    }
+  main h2 {
+    font-size: 30px;
+  }
 
-    nav a{
-        font-size: 30px;
-       }
-    
+  main li {
+    padding: 5px;
+  }
 
-    main h2{
-        font-size: 30px;
-        
-    }
+  .card {
+    border: 1px solid gray;
+    margin: 60px;
+    box-shadow: 4px 4px 50px 4px gray;
+  }
 
-    
-    
+  .padding {
+    margin: 5px;
+  }
 
-    main li{
-        padding: 5px;
-    }
+  .herolabel {
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    background: radial-gradient(#dedede, rgb(227, 161, 17));
+    /* border: 1px solid rgba(255, 255, 255, 0.75); */
+    padding: 1.5rem;
+    /* box-shadow: 0 0 3rem #fff; */
+    opacity: 0.75;
+  }
 
-    .card{
-        border: 1px solid gray;
-        margin: 60px;  
-        box-shadow: 4px 4px 50px 4px gray; 
-    }
+  .herolabel p {
+    margin: 0;
+    padding: 0.25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Great Vibes", serif;
+  }
 
-   
-   footer{
+  .color {
+    color: #000000;
+  }
+
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
     /* display: flex; */
     font-size: 30px;
     justify-content: center;
-  
-   }
+  }
 
-   #mybutton{
+  #mybutton {
     display: none;
-   }
- 
+  }
 }
-
-
-
-
-
-
-    

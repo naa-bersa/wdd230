@@ -104,3 +104,11 @@ margin-right: 15px;
 .white{
     color: rgb(214, 207, 179);
 }
+
+
+  /* height: 100vh; Set the height of the container to the full viewport height
+  } */
+/* .map-container iframe {
+  width: 80%; 
+  max-width: 800px; 
+  height: auto; /* Allow the height to adjust proportionally */
