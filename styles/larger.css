@@ -89,4 +89,9 @@
   #mybutton {
     display: none;
   }
+
+  .map-container{
+    margin-left: 60px;
+    padding-right: 100px;
+  }
 }
