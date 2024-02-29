@@ -1,3 +1,13 @@
+:root {
+    --padding-top: 1rem;
+    --padding: 2rem;
+    --size: 10px;
+    --max-width: 400px;
+    --button-width: 100%;
+    --button-max-width: 400px;
+  }
+
+
 .wf label{
     display: block;
     padding-top: 1rem;
