@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development, Monica Appau-Nkansah, course assignment portal "
+    />
+    <meta name="author" content="Monica Appau-Nkansah" />
+    <meta
+      property="og:title"
+      content="Monica - WDD 230 - Web Frontend Development"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./images/switzerland.jpg" />
+    <meta property="og:url" content="https://naa-bersa.github.io/wdd230/ " />
+    <title>Monica - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./week02/design.html" />
+    <link rel="stylesheet" href="styles/hpform.css" />
+  </head>
+  <body>
+    <header>
+      <!-- <p id="hamburger">&#9776;</p> -->
+      <img src="./images/monica.jpg" alt="Picture of Monica" />
+      <span>Monica Appau-Nkansah</span>
+    </header>
+
+    <button id="mybutton"></button>
+    <nav>
+      <a class="active" href="./index.html">Home</a>
+      <a href="./chamber/index.html">Chamber</a>
+      <a href="./week01/chamber-site-plan.html">Site Plan</a>
+      <a href="./form.html">Form</a>
+    </nav>
+
+    <main>
+      <form method="get" action="thanks.html" class="wf">
+        <div>
+          <fieldset class="center">
+            <label
+              >Username*<input
+                type="text"
+                name="username"
+                id="name"
+                required
+                autofocus
+            /></label>
+            <label
+              >Password*<input
+                type="text"
+                name="password"
+                placeholder="at least eight(8) characters long"
+                id="pass"
+                pattern="[A-Za-z]{3}"
+                title="At least eight (8) alpa-numeric characters long"
+                required
+            /></label>
+            <label
+              >Re-enter Your Password*<input
+                type="text"
+                name="password"
+                id="pass"
+                placeholder="at least eight(8) characters long"
+                pattern="[A-Za-z]{3}"
+                title="At least eight (8) alpa-numeric characters long"
+                required
+            /></label>
+            <label
+              >Email*<input
+                type="text"
+                name="email"
+                id="mail"
+                placeholder="someone@byui.edu"
+                required
+            /></label>
+            <input type="submit" value="I Want to Sign Up" />
+            <!-- <button class="move_right">Join</button> -->
+          </fieldset>
+        </div>
+        <fieldset class="middle">
+          Please Rate This Page
+          <div class="star-rating">
+            <input type="radio" name="stars" id="star-a" value="5" />
+            <label for="star-a"></label>
+
+            <input type="radio" name="stars" id="star-b" value="4" />
+            <label for="star-b"></label>
+
+            <input type="radio" name="stars" id="star-c" value="3" />
+            <label for="star-c"></label>
+
+            <input type="radio" name="stars" id="star-d" value="2" />
+            <label for="star-d"></label>
+
+            <input type="radio" name="stars" id="star-e" value="1" />
+            <label for="star-e"></label>
+          </div>
+        </fieldset>
+
+       
+      </form>
+    </main>
+  
+
+  <footer>
+    <p id="year"></p>
+    <p>Monica Appau-Nkansah, United States</p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/getDates.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
