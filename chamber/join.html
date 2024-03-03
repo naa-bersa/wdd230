@@ -28,7 +28,7 @@
       <a href="./discover.html">Discover</a>
       <a href="#">Calendar</a>
       <a href="#">Contact Us</a>
-      <a href="#">Sign Up</a>
+      <a href="join.html">Join</a>
     </nav>
     <div class="hero">
       <section>
@@ -37,34 +37,41 @@
         </div>
       </section>
     </div>
-    <main class="spread_out">
-      <p class="middle">
-        On this website you will find all the relevant details and contact
-        information of the cantonal Chambers of Commerce and Industry that are
-        part of our network.
-      </p>
-      <div class="headings">
-      <h2>UPCOMING EVENTS</h2>
-      <h2>COMPANY HIGHLIGHT</h2>
-     
-      </div>
-      
-       <div class="event-container"> 
-        <section class="leadership">
-            <img class="training" src="./images/breakfast.jpg" alt="Ladership Training" />
-            <p>BREAKFAST AT SVALNER SKATT & TRANSAKTION STOCKHOLM / HYBRID</p>
-            <p>LEARN MORE</p>
-        </section>
-        
-          <section class="leadership">
-          <img class="training" src="./images/lunch and learn.jpg" alt="lunch and learn" />
-          <p>Highlight</p>
-        </section>
-      </div>
+    <main>
+      <form method="get" action="./thanks.html" class="info">
+      <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <label id="fname">First Name* <input type="text" name="fnmae" required></label>
+        <label id="lname">Last Name* <input type="text" name="lnmae" required></label>
+        <label id="position">Title/Position <input type="text" name="title" pattern="alpa numeric characters, hyphens, spaces with a minimum of "></label>
+        <label id="email">Email* <input type="email" name="email" placeholder="someone@gmail.com"></label>
+        <label id="phone">Mobile phone number* <input type="tel" name="phone" required></label>
+        <label id="organization">Business Name* <input type="text" name="organization" required></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>CHAMBER MEMBERSHIP TYPE</legend>
+        <label><input type="radio" name="membership" value="NP Membership"> NP Membership - free</label>
+        <label><input type="radio" name="membership" value="Bronze Membership">Bronze Membership - $200</label>
+        <label><input type="radio" name="membership" value="Silver Membership">Silver Membershi - $300</label>
+        <label><input type="radio" name="membership" value="Gold Membership">Gold Membership - $350</label>   
+      </fieldset>
+
+      <fieldset>
+        <legend>BUSINESS/ORGANIZATION PROFILE</legend>
+        <div class="container">
+          <label>Organization Name<input type="text" name="Name" id="bus" required></label>
+          <label>Organization Description<input type="text" name="" id="des" required></label>
+          <!-- Hidden field for timestamp -->
+          <input type="hidden" id="timestamp" name="timestamp">
+
+
+        </div>
+      </fieldset>
+      <button type="submit">I Want to Join</button>
     
-
-      <!-- <p>Mission of the Chamber</p> -->
-
+      
+    </form>
     </main>
 
     
@@ -84,5 +91,6 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/exit.js"></script>
+    <script src="./scripts/timeStamp.js"></script>
   </body>
 </html>
