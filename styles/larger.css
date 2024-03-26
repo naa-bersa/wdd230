@@ -52,24 +52,7 @@
     margin: 5px;
   }
 
-  .herolabel {
-    position: absolute;
-    top: 120%;
-    left: 40%;
-    background: radial-gradient(#dedede, rgb(227, 161, 17));
-    /* border: 1px solid rgba(255, 255, 255, 0.75); */
-    padding: 1.5rem;
-    /* box-shadow: 0 0 3rem #fff; */
-    opacity: 0.75;
-  }
-
-  .herolabel p {
-    margin: 0;
-    padding: 0.25rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: "Great Vibes", serif;
-  }
+ 
 
   .color {
     color: #000000;
@@ -95,4 +78,15 @@
     padding-right: 100px; */
     margin-bottom: 40px;
   }
+
+  #mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  
 }

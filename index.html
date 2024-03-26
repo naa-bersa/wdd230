@@ -22,11 +22,12 @@
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="./week02/design.html" />
   </head>
-  <body>
+  <body class="">
     <header>
       <!-- <p id="hamburger">&#9776;</p> -->
       <img src="./images/monica.jpg" alt="Picture of Monica" />
       <span>Monica Appau-Nkansah</span>
+      <button id="mode">Dark Mode</button>
     </header>
 
     <button id="mybutton"></button>
@@ -39,8 +40,8 @@
 
     <div class="hero">
       <picture>
-        <source srcset="images/hero-small.webp" media="(max-width: 400px)" />
-        <source srcset="images/hero-medium.webp" media="(max-width: 960px)" />
+        <source srcset="./images/hero-small.webp" media="(max-width: 400px)" />
+        <source srcset="./images/hero-medium.webp" media="(max-width: 960px)" />
         <img
           src="./images/hero-large.webp.webp"
           alt="hero image"
@@ -107,5 +108,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/index.js"></script>
     <script src="./scripts/visits.js"></script>
+    <script src="./scripts/darkmode.js"></script>
+  
   </body>
 </html>
