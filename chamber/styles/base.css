@@ -188,6 +188,10 @@ footer{
     padding-left: 200px;
   }
 
+  .lastVisitDate{
+    color: aliceblue;
+  }
+
   /* height: 100vh; Set the height of the container to the full viewport height
   } */
 /* .map-container iframe {

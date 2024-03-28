@@ -12,7 +12,7 @@ try {
         const data = await response.json();
         displayResults(data);
 
-        console.log(data.weather.main)
+        console.log(data)
     } else{
         throw Error(await response.text());
     }
@@ -24,11 +24,13 @@ try {
 
 
 function displayResults(weatherData){
-currentTemp.innerHTML = `${weather.main.temp.tofixed(0)}&degF`;
-const iconsrc = `https://openweathermap.org/img/w/${WeatherData.weather[0].icon}.png`;
+// currentTemp.innerHTML = `${weather.main.temp.tofixed(0)}&degF`;
+const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
 let desc = weatherData.weather[0].description;
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", desc);
-    captionDesc.textContent = desc;
+    captionDesc.textContent = `${weatherData.weather[0].description}`;
+
+    currentTemp.textContent = weatherData.main.temp
 }
  apiFetch();
