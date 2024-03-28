@@ -43,7 +43,7 @@
         <legend>PERSONAL INFORMATION</legend>
         <label id="fname">First Name* <input type="text" name="fnmae" required></label>
         <label id="lname">Last Name* <input type="text" name="lnmae" required></label>
-        <label id="position">Title/Position <input type="text" name="title" pattern="alpa numeric characters, hyphens, spaces with a minimum of "></label>
+        <label id="position">Title/Position <input type="text" name="title" pattern="^[a-zA-Z -]{7,}$ "></label>
         <label id="email">Email* <input type="email" name="email" placeholder="someone@gmail.com"></label>
         <label id="phone">Mobile phone number* <input type="tel" name="phone" required></label>
         <label id="organization">Business Name* <input type="text" name="organization" required></label>
@@ -61,7 +61,7 @@
         <legend>BUSINESS/ORGANIZATION PROFILE</legend>
         <div class="container">
           <label>Organization Name<input type="text" name="Name" id="bus" required></label>
-          <label>Organization Description<input type="text" name="" id="des" required></label>
+          <label>Organization Description<textarea  name="" id="des" required> </textarea></label>
           <!-- Hidden field for timestamp -->
           <input type="hidden" id="timestamp" name="timestamp">
 
