@@ -162,6 +162,18 @@ display: flex;
     font-family: "Great Vibes", serif;
   }
 
+  #visitCount{
+    font-size: 20px;
+  }
+
   .dark .card #visitCount{
     color: rgb(223, 173, 20);
+  }
+
+  .dark #current-temp{
+    color:rgb(223, 173, 20); ;
+  }
+
+  #current-temp{
+    font-size: 20px;
   }
