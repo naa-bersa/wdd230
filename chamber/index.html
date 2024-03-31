@@ -37,15 +37,28 @@
         </div>
       </section>
     </div>
+     <!-- <div class="banner" id="meet-and-greet-banner"> 
+      <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+      <button id="close-banner-btn">Close</button>  -->
     <main class="spread_out">
       <p class="middle">
         On this website you will find all the relevant details and contact
         information of the cantonal Chambers of Commerce and Industry that are
         part of our network.
       </p>
+
+      <!-- Meet and greet banner -->
+    <div class="banner" id="meet-and-greet-banner">
+      <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+      <button id="close-banner-btn">×</button>
+  </div>
+      <section class="spotlight-advertisements">  
+
+      </section>
       <div class="headings">
       <h2>UPCOMING EVENTS</h2>
       <h2>COMPANY HIGHLIGHT</h2>
+      
      
       </div>
       
@@ -61,6 +74,14 @@
           <p>Highlight</p>
         </section>
       </div>
+
+      <div class="weather-container">
+        <figure>
+          <img id="weather-icon" src="" alt="">
+          <figcaption></figcaption>
+      </figure>
+      <p> <span id = "current-temp"></span></p>
+        </div>
     
 
       <!-- <p>Mission of the Chamber</p> -->
@@ -70,10 +91,7 @@
     
     <footer>
         <div class="align">
-            <section>
-                <p>Weather Card</p>
-            </section>
-
+            
             <section>
             <p id="year"></p>
             <p>Monica Appau-Nkansah, United States </p>
@@ -84,5 +102,8 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/exit.js"></script>
+    <script src="weather.js"></script>
+    <script src="./scripts/spotlight.js"></script>
+    <script src="./scripts/meet.js"></script>
   </body>
 </html>

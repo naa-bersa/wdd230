@@ -173,7 +173,7 @@ margin-right: 15px;
 
 footer{
   background:  rgb(41, 71, 96);
-  font-size: 1em;
+  font-size: 25px;
   text-align: center;
   padding: 20px;
   color: aliceblue;
@@ -192,9 +192,63 @@ footer{
     color: aliceblue;
   }
 
-  /* height: 100vh; Set the height of the container to the full viewport height
-  } */
-/* .map-container iframe {
-  width: 80%; 
-  max-width: 800px; 
-  height: auto; /* Allow the height to adjust proportionally */
+  .directory{
+    color: aliceblue;
+  }
+
+ .sidebar{
+  color: bisque;
+ }
+
+ .weather-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(197, 147, 59);
+  margin-bottom:10px ;
+}
+
+.weather-container figure {
+  display: flex;
+  align-items: center; /* Center vertically */
+  margin-right: 10px;
+}
+
+#weather-icon {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+}
+
+.weather-container figcaption {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px; /* Add some space between icon and description */
+  color: azure;
+}
+
+#current-temp {
+  font-size: 17px;
+  font-weight: bold;
+  color: azure;
+}
+
+.banner {
+  display: none;
+  background-color: #de820b;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#close-banner-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+}

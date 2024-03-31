@@ -34,3 +34,4 @@ let desc = weatherData.weather[0].description;
     currentTemp.textContent = weatherData.main.temp
 }
  apiFetch();
+// 46.78174968569931, 7.920334054252698
