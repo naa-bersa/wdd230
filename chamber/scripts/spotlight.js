@@ -42,7 +42,8 @@ function displaySpotlightAdvertisements(members) {
             <h2>${member.name}</h2>
             <p>${member.address}</p>
             <p>Phone: ${member.phone}</p>
-            <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
+            <a href="${member.website}" target="_blank"> Website</a>
+            <img src="${member.image}" alt="Member Image">
             <!-- Add additional member details as needed -->
         `;
         spotlightContainer.appendChild(advertisement);

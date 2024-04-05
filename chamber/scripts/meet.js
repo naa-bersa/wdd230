@@ -14,14 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
         banner.style.display = isMeetAndGreetDay() ? 'block' : 'none';
     }
 
-    // Function to close the meet and greet banner
+    
     function closeMeetAndGreetBanner() {
         banner.style.display = 'none';
     }
 
-    // Event listener for the close button of the meet and greet banner
+   
     closeButton.addEventListener('click', closeMeetAndGreetBanner);
-z
-    // Show or hide the meet and greet banner on page load
+
+    
     toggleMeetAndGreetBanner();
 });

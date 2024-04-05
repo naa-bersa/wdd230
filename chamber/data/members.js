@@ -36,7 +36,7 @@ function displayMembersAsGrid(members) {
   
       // Image element
       const image = document.createElement('img');
-      image.src = 'images/' + member.image; // Assuming images are stored in 'images/' folder
+      image.src = member.image; // Assuming images are stored in 'images/' folder
       image.alt = member.name;
   
       // Append all elements to card
@@ -75,7 +75,7 @@ function displayMembersAsList(members) {
   
       // Image element
       const image = document.createElement('img');
-      image.src = 'images/' + member.image; // Assuming images are stored in 'images/' folder
+      image.src = member.image; // Assuming images are stored in 'images/' folder
       image.alt = member.name;
   
       // Append all elements to list item

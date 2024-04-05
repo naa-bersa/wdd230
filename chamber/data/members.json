@@ -1,75 +1,75 @@
 {
     "members": [
       {
-        "name": "Aargauische Industrie- und Handelskammer",
-        "address": "Entfelderstrasse 11 Postfach 5001 Aarau",
+        "name": "Shell",
+        "address": "Rte de Divonne 2, 1279 Chavannes-de-Bogis, Suwizalan",
         "phone": "123-456-7890",
-        "website": "www.aihk.ch",
-        "image": "images/image1.png",
+        "website": "https://www.shell.com/",
+        "image": "./data/images/shell_logo.webp",
         "membershipLevel": "Gold"
         },
 
      {
-        "name": "Camera di commercio, dell'industria, dell'artigianato e dei servizi del cantone Ticino",
-        "address": "39b, route du Jura Case postale 304 1701 Fribourg",
+        "name": "Nestle",
+        "address": "Rue d'Entre-deux-Villes 12, 1814 La Tour-de-Peilz, Suwizalan",
         "phone": "123-456-7760",
         "website": "www.cc-ti.ch",
         "email": "info@cc-ti.ch",
-        "image": "images/image2.png",
+        "image": "./data/images/nestle.jpg",
         "membershipLevel": "Silver"   
         },
 
     {
         "name": "Total",
-        "address": "37b, route du Jura Case postale 304 1701 Fribourg",
+        "address": "Ruessenstrasse 18, 6340 Baar, Suwizalan",
         "phone": "+41-626-7720",
         "website": "www.ccif.ch",
         "email": "info@ccif.ch",
-        "image": "images/total.png",
+        "image": "./data/image/total.jpg",
         "membershipLevel": "Bronze"   
 
         },
     
     {
-        "name": "Chambre de Commerce et d'Industrie du Jura",
-        "address": "23, rue de l'Avenir 2800 Delémont",
+        "name": "Glencore",
+        "address": "Baarermattstrasse 3, 6340 Baar, Switzerland",
         "phone": "+41-626-7745",
         "website": "www.ccij.ch",
         "email": "ccjura@ccij.ch",
-        "image": "images/image3.png",
+        "image": "./data/images/glencore.jpg",
         "membershipLevel": "Gold"   
     
         },
 
     {
-        "name": "Chambre de commerce, d'industrie et des services de Genève",
-        "address": "4, boulevard du Théâtre Case postale 5039 1211 Genève",
+        "name": "ABB",
+        "address": "Bruggerstrasse 72, 5400 Baden, Suwizalan",
         "phone": "+41-626-7711",
         "website": "www.ccig.ch",
         "email": "cci@ccig.ch",
-        "image": "images/image4.png",
+        "image": "./data/images/abb.jpg",
         "membershipLevel": "Silver"   
         
         },
          
     {
-        "name": "Chambre neuchâteloise du commerce et de l'industrie",
-        "address": "4, rue de la Serre Case postale 2012 2001 Neuchâtel",
+        "name": "Novartis",
+        "address": "Suurstoffi 14, 6343 Rotkreuz, Suwizalan",
         "phone": "+41-626-7715",
         "website": "www.cnci.ch",
         "email": "cnci@cnci.ch",
-        "image": "images/image5.png",
+        "image": "./data/images/novartis.jpg",
         "membershipLevel": "Gold"   
             
     },
 
     {
-        "name": "Chambre valaisanne de commerce et d'industrie",
-        "address": "6, rue Pré-Fleuri Case postale 288 1951 Sion",
+        "name": "UBS",
+        "address": "Bd du Pont-d'Arve 39, 1205 Genève, Suwizalan",
         "phone": "+41-626-7735",
         "website": "www.cci-valais.ch",
         "email": "info@cci-valais.ch",
-        "image": "images/image6.png",
+        "image": "./data/images/ubs.jpg",
         "membershipLevel": "Bronze"   
             
     }

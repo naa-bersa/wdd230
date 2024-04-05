@@ -252,3 +252,39 @@ footer{
   right: 10px;
   font-size: 20px;
 }
+
+
+.spotlight-advertisements {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+.advertisement {
+ 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+  width: 15%; 
+  text-align: center; 
+  border-width: 5px;
+  box-sizing: content-box;
+}
+
+#feedback label{
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  font-size: larger;
+}
+
+#feedback.button{
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+#feedback input{
+  padding-bottom: 10px;
+  margin: 10px;
+}

@@ -1,4 +1,4 @@
-// 1. Fetch weather data from OpenWeatherMap API
+
 async function fetchWeatherData() {
     try {
         
@@ -12,11 +12,12 @@ async function fetchWeatherData() {
     }
 }
 
-// 2. Update UI with weather information
+
 function updateWeatherUI(weatherData) {
     const weatherIcon = document.getElementById('weather-icon');
     const weatherDescription = document.querySelector('.weather-container figcaption');
     const currentTemp = document.getElementById('current-temp');
+
 
     if (weatherData) {
         const iconCode = weatherData.weather[0].icon;
@@ -27,17 +28,19 @@ function updateWeatherUI(weatherData) {
         weatherIcon.src = iconUrl;
         weatherIcon.alt = description;
         weatherDescription.textContent = description;
-        currentTemp.textContent = `${temperature}°C`;
+        currentTemp.textContent = `${temperature}°F`;
     } else {
-        // Handle error or no data
+        
     }
+   
 }
 
-// Entry point - fetch data and update UI
+
 async function initializePage() {
     const weatherData = await fetchWeatherData();
     updateWeatherUI(weatherData);
 }
 
-// Call initializePage when the DOM content is loaded
+
 document.addEventListener('DOMContentLoaded', initializePage);
+
