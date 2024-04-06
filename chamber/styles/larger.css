@@ -4,7 +4,7 @@
         display: flex;
         justify-content: center;
      
-        /* padding: 10px; */
+       
     }
    
 
@@ -38,19 +38,14 @@
         font-size: 15px;
        }
 
-    .image_grid img{
-        width: 100%;
-    }   
     
     .leadership_img{
         justify-content: center;
     }
 
-    /* .directory{
-        text-align: center;
-    } */
+   
 
-    .leadership a{
+    .leadership {
         text-align: center;
     }
 
@@ -68,12 +63,7 @@
         font-size: 20px;
         text-align: center;
     }
-    /* .left-align{
-    /* display: flex; */
-    /* font-size: 30px;
-    justify-content: left;
-  
-   } */ 
+    
 
    #mybutton{
     display: none;
@@ -94,10 +84,7 @@
     width: 80%;
 }
  
-/* .align{
-    display: grid;
-   grid-template-columns: 30% 80%;
-} */
+
 
 .headings{
     display: grid;
@@ -146,6 +133,39 @@ main.spread{
     margin-top: 80px;
 }
 
+ul .member-list img{
+    width: 20%;
+  }
+
+  .image-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .image-grid img{
+  padding: 20px;
+  margin-left: 25px;
+  margin-right: 40px;
+  border: 1px solid #e4b921;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgb(69, 65, 65);
+  width: 90%;
+  transition: transform .5s;
+  }
+  
+  .image-grid img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+    
+  }
+  .more-right{
+    margin-left: 20px;
+  }
 
 
+  .switz{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 90px;
+  }
 }
