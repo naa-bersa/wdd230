@@ -5,7 +5,7 @@
         "address": "Rte de Divonne 2, 1279 Chavannes-de-Bogis, Suwizalan",
         "phone": "123-456-7890",
         "website": "https://www.shell.com/",
-        "image": "./data/images/shell_logo.webp",
+        "image": "./data/images/shell_logo.jpg",
         "membershipLevel": "Gold"
         },
 
@@ -25,7 +25,7 @@
         "phone": "+41-626-7720",
         "website": "www.ccif.ch",
         "email": "info@ccif.ch",
-        "image": "./data/image/total.jpg",
+        "image": "./data/images/total.jpg",
         "membershipLevel": "Bronze"   
 
         },

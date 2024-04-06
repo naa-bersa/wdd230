@@ -46,6 +46,14 @@
         justify-content: center;
     }
 
+    /* .directory{
+        text-align: center;
+    } */
+
+    .leadership a{
+        text-align: center;
+    }
+
     main h2{
         font-size: 25px; 
         margin-top: 40px;
